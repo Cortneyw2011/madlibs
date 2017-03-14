@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-app>
+
+<div class="form">
+  person: <input type="text" ng-model = "person">
+  <br>
+  Adjective <input type="text" ng-model = "adjective">
+  <br>
+  pronoun () <input type="text" ng-model = "pronoun">
+  <br>
+  Noun: <input type="text" ng-model = "noun2">
+  <br>
+  Adjective <input type="text" ng-model = "adjective2">
+  <br>
+  Place: <input type="text" ng-model = "place">
+  <br>
+  Color <input type="text" ng-model = "color">
+  <br>
+  Verb (-ing): <input type="text" ng-model = "verb">
+  <br>
+  Preposition <input type="text" ng-model = "preposition">
+
+</div>
+
+
+<div class="form">
+  Your Age: <input type="text" ng-model = "age">
+  <p> Your age in dog years is {{age * 7}}.</p>
+    {{true||false}}
+</div>
+
+
+
+
+    <button type="button" name="button">Show Mad Lib Result!</button>
+    <p id = "madlib">{{person}} is always very {{adjective}}. One day when {{pronoun}} was getting ready for work
+    {{pronoun}} noticed a huge {{noun2}} right outside the bedroom window. The {{noun2}} was so {{adjective2}}.
+    "Go back to {{place}}!!!", {{person}} yelled. The clock is ticking and {{person}} is going to be late for
+    work after the ordeal. {{person}} looked in the closet and realized all of her clothes were {{color}}.
+    {{person}} will be {{verb}} {{preposition}} the clock Today. WHAT A MORNING!</p>
+
+  <script src="lib/angular.min.js" charset="utf-8"></script>
+  </body>
+</html>

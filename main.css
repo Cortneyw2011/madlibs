@@ -1,0 +1,23 @@
+.form{
+  border: purple inset 5px;
+  text-align: center;
+  width: 500px;
+  position: relative;
+  margin: auto;
+  margin-bottom:5px;
+  border-radius: 50px;
+}
+
+input{
+  margin-top: 10px;
+}
+button{
+  position: relative;
+  margin: auto;
+}
+
+#madlib{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
